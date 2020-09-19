@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MisMascotasBD</string>
+    <string name="app_title">Petagram</string>
+    <string name="mis_favoritas">My Favorite Pets</string>
+    <string name="title_about">About Me</string>
+    <string name="title_contact">Contact Form</string>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact</string>
+    <string name="nombre_mascota">Catty</string>
+    <string name="rate_mascota">5</string>
+    <string name="msg_clicFabCamara">You pressed the Camera button</string>
+    <string name="msg_clicRate">You like</string>
+    <string name="my_name">Sonia Cruz</string>
+    <string name="about_me">Computer Engineer and Master in Computer Engineering by UNAM. I currently work on distance education projects at the undergraduate and graduate levels.</string>
+
+    <string name="form_nombre">Name</string>
+    <string name="form_email">Email</string>
+    <string name="form_mensaje">Write your comments</string>
+    <string name="btn_send">Send Comment</string>
+
+    <string name="subject">Comments about the App Petagram</string>
+    <string name="form_comentario">Comment</string>
+    <string name="commented">commented</string>
+    <string name="error_blank">You must enter the</string>
+    <string name="minimo">Minimum</string>
+    <string name="caracteres">characters</string>
+
+    <string name="statusMail_gettingReady">Getting ready...</string>
+    <string name="statusMail_instantiateGMail">About to instantiate GMail...</string>
+    <string name="statusMail_ProcessingInput">Processing input....</string>
+    <string name="statusMail_Preparing">Preparing mail message....</string>
+    <string name="statusMail_Sending">Sending email....</string>
+    <string name="statusMail_Sent">Email Sent.</string>
+</resources>

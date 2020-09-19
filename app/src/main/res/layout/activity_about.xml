@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <include android:id="@+id/actionBarAbout"
+        layout="@layout/actionbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/tvTituloAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionBarAbout"
+        android:text="@string/title_about"
+        android:textStyle="bold"
+        android:textSize="@dimen/nombre"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/pad_about"
+
+        />
+    <ImageView
+        android:id="@+id/imvMe"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/tvTituloAbout"
+        android:gravity="center_horizontal"
+        android:src="@drawable/sonia"
+        android:layout_marginBottom="@dimen/pad_about"
+        />
+    <TextView
+        android:id="@+id/tvMyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imvMe"
+        android:text="@string/my_name"
+        android:textSize="@dimen/nombre_cardview"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/pad_about"
+        />
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMyName"
+        android:text="@string/about_me"
+        android:textSize="@dimen/text_about"
+        android:gravity="left"
+        android:padding="@dimen/pad_about"
+        />
+</RelativeLayout>

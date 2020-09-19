@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+    >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_imgprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padImgProfile"
+            >
+
+            <TextView
+                android:id="@+id/tvNumero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="25dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorTextIcons"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="@dimen/imgProfile"
+                android:layout_height="@dimen/imgProfile"
+                android:src="@drawable/dalmata"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            >
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:id="@+id/btnRate"
+                    android:layout_width="@dimen/iconCard"
+                    android:layout_height="@dimen/iconCard"
+                    android:layout_marginLeft="@dimen/ml1_cardview"
+                    android:scaleType="centerCrop"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/ic_whitebone" />
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ml2_cardview"
+                    android:textSize="@dimen/nombre_cardview"
+                    android:text="@string/nombre_mascota"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+
+                >
+                <TextView
+                    android:id="@+id/tvRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ml2_cardview"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/nombre_cardview"
+                    android:text="@string/rate_mascota"/>
+
+                <ImageButton
+                    android:id="@+id/btnRating"
+                    android:layout_width="@dimen/iconCard"
+                    android:layout_height="@dimen/iconCard"
+                    android:scaleType="centerCrop"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/ic_yellowbone"
+                    android:layout_marginLeft="@dimen/ml2_cardview"
+
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

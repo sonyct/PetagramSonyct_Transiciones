@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis Mascotas</string>
+    <string name="app_title">Petagram</string>
+    <string name="mis_favoritas">Mis mascotas favoritas</string>
+    <string name="title_about">Acerca de</string>
+    <string name="title_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="nombre_mascota">Catty</string>
+    <string name="rate_mascota">5</string>
+    <string name="msg_clicFabCamara">Diste clic sobre el botón de la cámara</string>
+    <string name="msg_clicRate">Te gusta</string>
+    <string name="my_name">Sonia Cruz</string>
+    <string name="about_me">Ingeniera en Computación y Maestra en Ingeniería en Computación por la UNAM.  Actualmente trabajo en proyectos de educación a distancia a nivel licenciatura y posgrado.</string>
+
+    <string name="form_nombre">Nombre</string>
+    <string name="form_email">Email</string>
+    <string name="form_mensaje">Escribe tus comentarios</string>
+    <string name="btn_send">Enviar comentario</string>
+
+    <string name="subject">Comentario de la App Petagram</string>
+    <string name="form_comentario">Comentario</string>
+    <string name="commented">comentó</string>
+    <string name="error_blank">Debe ingresar el</string>
+    <string name="minimo">Mínimo</string>
+    <string name="caracteres">caracteres</string>
+
+    <string name="statusMail_gettingReady">Iniciando...</string>
+    <string name="statusMail_instantiateGMail">Creando la instancia GMail...</string>
+    <string name="statusMail_ProcessingInput">Procesando los datos....</string>
+    <string name="statusMail_Preparing">Preparando el mensaje del email...</string>
+    <string name="statusMail_Sending">Enviando email....</string>
+    <string name="statusMail_Sent">Email enviado.</string>
+</resources>

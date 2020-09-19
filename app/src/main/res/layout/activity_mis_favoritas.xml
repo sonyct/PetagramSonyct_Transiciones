@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.MisFavoritas">
+
+    <include android:id="@+id/actionBarFav"
+        layout="@layout/actionbar"
+        ></include>
+    <TextView
+        android:id="@+id/tvTituloFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionBarFav"
+        android:text="@string/mis_favoritas"
+        android:textStyle="bold"
+        android:textSize="@dimen/nombre"
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFavoritas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTituloFav"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin"/>
+</RelativeLayout>
